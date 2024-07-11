@@ -12,6 +12,11 @@ main {
 header {
 
     text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  
 }
 
 nav {
@@ -20,4 +25,16 @@ nav {
     align-items: center;
     width: 100%;
     justify-content: center;
+}
+
+a {
+    color : rgb(31, 31, 31);
+    text-shadow: black 1px 0 10px;
+
+}
+
+a:hover   {
+    color:black;
+    transform: rotate(-5deg);
+
 }
